@@ -5,23 +5,23 @@ import json
 import pandas as pd
 import time
 
-# Importando o arquivo json
+# Abrindo o arquivo json e salvando numa variavel
 with open("export.json", "r", encoding="utf-8") as file:
-    data = json.load(open("export.json"))
+    data = json.load(file)
 
-# Transformando em dataset
-places = []
+places = [] # Criando uma lista vazia
 
 for el in data["elements"]:
     tags = el.get("tags", {})
 
     places.append({
-        "nome": tags.get("name"),
         "lat": el.get("lat"),
         "lon": el.get("lon"),
+        "taxa" : tags.get("fee"),
         "tipo": tags.get("amenity"),
-        "capidade": tags.get("capacity"),
+        "capacidade": tags.get("capacity"),
     })
+
 
 places = pd.DataFrame(places)
 
@@ -31,26 +31,23 @@ places = pd.DataFrame(places)
 # Extraindo os enderecos pela lat e lon
 
 enderecos = []
+erros = 0
 
 headers = {
     "User-Agent": "datamining/1.0 (contato: misaelalmeidamisael@gmail.com)"
 }
 
 for el in data["elements"]:
-
     lat = el.get("lat")
     lon = el.get("lon")
 
     if lat is None or lon is None:
+        erros += 1
         continue
 
     # Usando Nomination para procura (e interessante abrir o arquivo JSON gerado para melhorar a busca)
-
     url = f"https://nominatim.openstreetmap.org/reverse?lat={lat}&lon={lon}&format=json&addressdetails=1"
-
     response = requests.get(url, headers=headers)
-
-    # Tratamento de erros
 
     if response.status_code != 200:
         print(f"Erro HTTP: {response.status_code}")
