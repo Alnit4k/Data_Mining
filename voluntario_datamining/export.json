@@ -1,0 +1,1006 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.10 2d4cfc48",
+  "osm3s": {
+    "timestamp_osm_base": "2026-03-10T22:54:14Z",
+    "timestamp_areas_base": "2026-03-10T15:33:00Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 243535972,
+      "lat": 40.447447,
+      "lon": -3.6278558,
+      "tags": {
+        "amenity": "parking",
+        "created_by": "JOSM"
+      }
+    },
+    {
+      "type": "node",
+      "id": 566829183,
+      "lat": -13.0055799,
+      "lon": -38.5237918,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 566829184,
+      "lat": -13.0059993,
+      "lon": -38.5239912,
+      "tags": {
+        "amenity": "parking",
+        "fee": "yes",
+        "level": "-1;1;1.5;2;2.5;3;3.5;4"
+      }
+    },
+    {
+      "type": "node",
+      "id": 566829185,
+      "lat": -13.0064831,
+      "lon": -38.5255084,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 571288634,
+      "lat": -13.0031788,
+      "lon": -38.5067243,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 612502426,
+      "lat": -12.9960135,
+      "lon": -38.4641229,
+      "tags": {
+        "amenity": "parking",
+        "fee": "no",
+        "parking": "multi-storey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 622395976,
+      "lat": -12.9690228,
+      "lon": -38.5038351,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 622454798,
+      "lat": -12.9829661,
+      "lon": -38.4795526,
+      "tags": {
+        "access": "permissive",
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 624832927,
+      "lat": -12.9360536,
+      "lon": -38.3949267,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 676406525,
+      "lat": -12.9838326,
+      "lon": -38.4708177,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 676734781,
+      "lat": -12.9216119,
+      "lon": -38.3560344,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 758601571,
+      "lat": 38.0134118,
+      "lon": -7.8611349,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 760687447,
+      "lat": 38.0110241,
+      "lon": -7.8558183,
+      "tags": {
+        "amenity": "parking",
+        "name": "Parque do Pingo Doce"
+      }
+    },
+    {
+      "type": "node",
+      "id": 760687460,
+      "lat": 38.0114313,
+      "lon": -7.8591029,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 898928123,
+      "lat": -12.9832598,
+      "lon": -38.4652506,
+      "tags": {
+        "amenity": "parking",
+        "fee": "no",
+        "park_ride": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 937604065,
+      "lat": -13.0076792,
+      "lon": -38.5081407,
+      "tags": {
+        "amenity": "parking",
+        "charge": "3.00",
+        "fee": "3.00",
+        "name": "Estacionamento do João",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 942609293,
+      "lat": 38.0131355,
+      "lon": -7.8602469,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 956868673,
+      "lat": -12.937644,
+      "lon": -38.4127863,
+      "tags": {
+        "access": "restricted",
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1018551951,
+      "lat": -12.9897134,
+      "lon": -38.5194924,
+      "tags": {
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "Estacionamento do TCA",
+        "supervised": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1736578746,
+      "lat": -13.010443,
+      "lon": -38.4975809,
+      "tags": {
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "no",
+        "name": "Estacionamento da Praia da Paciência",
+        "parking": "surface",
+        "source": "Bing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1743308871,
+      "lat": -13.0015107,
+      "lon": -38.5045285,
+      "tags": {
+        "amenity": "parking",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1908423694,
+      "lat": -13.0147722,
+      "lon": -38.48532,
+      "tags": {
+        "amenity": "parking",
+        "fee": "11"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2278369393,
+      "lat": 37.9398464,
+      "lon": -7.5976333,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2278389527,
+      "lat": 37.9388164,
+      "lon": -7.5918263,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2278389683,
+      "lat": 37.9388416,
+      "lon": -7.6048806,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2278452422,
+      "lat": 37.9416351,
+      "lon": -7.601556,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2437638586,
+      "lat": 38.0123976,
+      "lon": -7.8562253,
+      "tags": {
+        "amenity": "parking",
+        "capacity": "10",
+        "fee": "no",
+        "park_ride": "no",
+        "parking": "surface",
+        "supervised": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2811882629,
+      "lat": -12.9570691,
+      "lon": -38.4368183,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3708701934,
+      "lat": -12.9817056,
+      "lon": -38.4559493,
+      "tags": {
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3708701938,
+      "lat": -12.9805457,
+      "lon": -38.4555174,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3708701944,
+      "lat": -12.9886146,
+      "lon": -38.4504856,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3708701945,
+      "lat": -12.9876402,
+      "lon": -38.450588,
+      "tags": {
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3708701946,
+      "lat": -12.9866332,
+      "lon": -38.4524235,
+      "tags": {
+        "amenity": "parking",
+        "parking": "lane"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3712445457,
+      "lat": -13.0086324,
+      "lon": -38.5259149,
+      "tags": {
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3946138697,
+      "lat": -12.9575473,
+      "lon": -38.4373693,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4343779492,
+      "lat": -13.0091376,
+      "lon": -38.5100084,
+      "tags": {
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "yes",
+        "operator": "ABM"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4356521477,
+      "lat": -13.0124706,
+      "lon": -38.4902502,
+      "tags": {
+        "amenity": "parking",
+        "name": "Park Inn"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4420696622,
+      "lat": -12.9644685,
+      "lon": -38.502551,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4420696623,
+      "lat": -12.9641358,
+      "lon": -38.5018144,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4420696624,
+      "lat": -12.9652586,
+      "lon": -38.5033885,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4420696625,
+      "lat": -12.9648042,
+      "lon": -38.503059,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4420696626,
+      "lat": -12.9671193,
+      "lon": -38.506467,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4420696627,
+      "lat": -12.9674928,
+      "lon": -38.5070005,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4420696628,
+      "lat": -12.9676109,
+      "lon": -38.5071449,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4509743577,
+      "lat": -12.9933192,
+      "lon": -38.5190061,
+      "tags": {
+        "amenity": "parking",
+        "name": "Estacionamento Bahia Park"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4583373953,
+      "lat": -13.0064068,
+      "lon": -38.4891658,
+      "tags": {
+        "amenity": "parking",
+        "fee": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4663335171,
+      "lat": -13.0093001,
+      "lon": -38.5274528,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5159983370,
+      "lat": -13.006846,
+      "lon": -38.5246835,
+      "tags": {
+        "amenity": "parking",
+        "fee": "yes",
+        "level": "3;4;5"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5257878449,
+      "lat": -13.0047771,
+      "lon": -38.5091964,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5620370778,
+      "lat": -12.9885988,
+      "lon": -38.448298,
+      "tags": {
+        "access": "customers",
+        "amenity": "parking",
+        "fee": "no",
+        "layer": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5703132327,
+      "lat": -12.9825272,
+      "lon": -38.4556692,
+      "tags": {
+        "amenity": "parking",
+        "layer": "-1",
+        "name": "Central Park",
+        "parking": "underground",
+        "supervised": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5862747808,
+      "lat": -12.9552169,
+      "lon": -38.4371188,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5862749332,
+      "lat": -12.9568818,
+      "lon": -38.4376448,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5862750781,
+      "lat": -12.9569312,
+      "lon": -38.4377451,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5862752716,
+      "lat": -12.9553359,
+      "lon": -38.4381811,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5862770186,
+      "lat": -12.9584097,
+      "lon": -38.4382632,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5862939795,
+      "lat": -12.9544548,
+      "lon": -38.4430409,
+      "tags": {
+        "amenity": "parking",
+        "parking": "lane"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6315435892,
+      "lat": -12.9321902,
+      "lon": -38.5063656,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6316018774,
+      "lat": -12.9346962,
+      "lon": -38.4788156,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6321847393,
+      "lat": -12.9409385,
+      "lon": -38.4968659,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6614680795,
+      "lat": -13.0090486,
+      "lon": -38.5275062,
+      "tags": {
+        "access": "private",
+        "amenity": "parking",
+        "fee": "yes",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6746985288,
+      "lat": -13.0137392,
+      "lon": -38.485916,
+      "tags": {
+        "addr:street": "Rua Fonte do Boi",
+        "amenity": "parking",
+        "name": "Estacione"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7101999682,
+      "lat": -12.9066009,
+      "lon": -38.3494936,
+      "tags": {
+        "amenity": "parking",
+        "fee": "yes",
+        "name": "Executive Park"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7124205163,
+      "lat": -12.9031989,
+      "lon": -38.4043574,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7218335197,
+      "lat": -13.0092786,
+      "lon": -38.465898,
+      "tags": {
+        "amenity": "parking",
+        "fee": "yes",
+        "operator": "Well Park"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7221725321,
+      "lat": -12.9730708,
+      "lon": -38.504206,
+      "tags": {
+        "access": "customers",
+        "amenity": "parking",
+        "capacity": "50",
+        "covered": "no",
+        "operator": "Instituto Brasileiro de Geografia e Estatística",
+        "operator:type": "government",
+        "parking": "surface",
+        "supervised": "no",
+        "surface": "asphalt",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7263547396,
+      "lat": -12.9315622,
+      "lon": -38.4128883,
+      "tags": {
+        "access": "private",
+        "amenity": "parking",
+        "name": "Estacionamento Externo Unijorge",
+        "parking": "surface"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7435524909,
+      "lat": -12.969436,
+      "lon": -38.4354869,
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "capacity": "5",
+        "charge": "R$ 3,00 - r$ 6,00",
+        "fee": "yes",
+        "kerb": "sloped",
+        "maxstay": "2h - 6h",
+        "operator": "Prefeitura Municipal de Salvador",
+        "operator:type": "government",
+        "parking": "garage_boxes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:electronic_purses": "yes",
+        "surface": "asphalt",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8319015607,
+      "lat": -12.9396047,
+      "lon": -38.3681609,
+      "tags": {
+        "amenity": "parking",
+        "operator": "Chão",
+        "surface": "Gramado"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9222416021,
+      "lat": -12.8468417,
+      "lon": -38.4473433,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9306334204,
+      "lat": -12.9934888,
+      "lon": -38.454559,
+      "tags": {
+        "access": "customers",
+        "amenity": "parking",
+        "operator": "Super Pão",
+        "parking": "multi-storey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10696301755,
+      "lat": -12.9918618,
+      "lon": -38.5205193,
+      "tags": {
+        "amenity": "parking",
+        "operator": "Sol Park",
+        "operator:type": "private",
+        "parking": "garage_boxes",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10862468759,
+      "lat": -12.9817621,
+      "lon": -38.4538983,
+      "tags": {
+        "amenity": "parking",
+        "fee": "yes",
+        "operator": "Webpark",
+        "operator:type": "private"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10942087412,
+      "lat": -12.9794346,
+      "lon": -38.4514441,
+      "tags": {
+        "amenity": "parking",
+        "fee": "yes",
+        "operator": "Estapar",
+        "operator:type": "private",
+        "operator:wikidata": "Q111785735",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11051363482,
+      "lat": -12.9950605,
+      "lon": -38.4546041,
+      "tags": {
+        "amenity": "parking",
+        "layer": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11833973036,
+      "lat": -12.9345057,
+      "lon": -38.4407555,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11833973037,
+      "lat": -12.934444,
+      "lon": -38.4412812,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11833973038,
+      "lat": -12.9346061,
+      "lon": -38.4412448,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11856911418,
+      "lat": 39.4801445,
+      "lon": -8.5363975,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11856911434,
+      "lat": 39.4821816,
+      "lon": -8.5352865,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12006756787,
+      "lat": -12.9377457,
+      "lon": -38.4130218,
+      "tags": {
+        "access": "restricted",
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12006756793,
+      "lat": -12.9374234,
+      "lon": -38.4123202,
+      "tags": {
+        "access": "restricted",
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12007007269,
+      "lat": -12.9376859,
+      "lon": -38.4130644,
+      "tags": {
+        "access": "restricted",
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12007007285,
+      "lat": -12.9379042,
+      "lon": -38.4137986,
+      "tags": {
+        "access": "restricted",
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12007256789,
+      "lat": -12.9377667,
+      "lon": -38.4136804,
+      "tags": {
+        "access": "restricted",
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12007271119,
+      "lat": -12.9372026,
+      "lon": -38.4125212,
+      "tags": {
+        "access": "restricted",
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12007302278,
+      "lat": -12.9375978,
+      "lon": -38.4129712,
+      "tags": {
+        "access": "restricted",
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12007302279,
+      "lat": -12.9375701,
+      "lon": -38.4132473,
+      "tags": {
+        "access": "restricted",
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12007302280,
+      "lat": -12.9378437,
+      "lon": -38.4137065,
+      "tags": {
+        "access": "restricted",
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12007302281,
+      "lat": -12.9371922,
+      "lon": -38.4125531,
+      "tags": {
+        "access": "restricted",
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12007322658,
+      "lat": -12.9374362,
+      "lon": -38.4126943,
+      "tags": {
+        "access": "restricted",
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12056355669,
+      "lat": -12.9980932,
+      "lon": -38.4682334,
+      "tags": {
+        "amenity": "parking",
+        "parking": "multi-storey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12759834912,
+      "lat": -12.940596,
+      "lon": -38.4068439,
+      "tags": {
+        "amenity": "parking"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12992952497,
+      "lat": -12.997726,
+      "lon": -38.4883833,
+      "tags": {
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "parking": "underground"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13397612161,
+      "lat": 40.4439581,
+      "lon": -3.6232913,
+      "tags": {
+        "amenity": "parking",
+        "level": "-1"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13438203477,
+      "lat": -12.9973345,
+      "lon": -38.465003,
+      "tags": {
+        "access": "private",
+        "amenity": "parking",
+        "fee": "yes",
+        "layer": "-1",
+        "parking": "underground"
+      }
+    }
+  ]
+}
